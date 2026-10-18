@@ -25,8 +25,8 @@ people live here and use it.
 | Phase | What | Status |
 |---|---|---|
 | 1 | Physical install: UPS, switch replaces the old unmanaged one, no config | Done 2026-10-18 |
-| 2 | MikroTik becomes the router, same addressing, mesh goes to bridge mode | Next |
-| 3 | VLANs: servers, trusted devices, IoT, guests | Later |
+| 2 | MikroTik becomes the router, same addressing, mesh goes to bridge mode | Done 2026-10-18 |
+| 3 | VLANs: servers isolated first, IoT and guest Wi-Fi once I add a VLAN-capable AP | Next |
 
 Phase 2 keeps the exact same subnet, gateway address and DNS server, so nothing
 that depends on them (the server's tunnel, Pi-hole, bookmarks) has to change.
@@ -35,6 +35,7 @@ that depends on them (the server's tunnel, Pi-hole, bookmarks) has to change.
 
 - [Phase 1 write-up](docs/phase-1.md): what I did, the UPS outlet plan, and
   what went wrong
+- [Phase 2 write-up](docs/phase-2.md): swapping the router with no visible downtime
 - [UPS auto-shutdown with NUT](docs/ups-nut.md): config and how to check it
 - [Lessons](docs/lessons.md): the stuff I'd tell myself before starting
 
